@@ -2,9 +2,9 @@
 mono TerrariaServer.exe \
     -port 7777 \
     -maxplayers ${maxplayers} \
-    -world /world/${mapname}.wld \
-    -worldpath /world \
+    -world /data/${base}/world/${mapname}.wld \
+    -worldpath /data/${base}/world \
     -autocreate ${mapsize} \
-    -configpath /etc/tshock/ \
+    -configpath /data/${base}/tshock/ \
     -forceupdate \
-    -logpath /logs
+    -logpath /data/${base}/logs
