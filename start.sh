@@ -6,5 +6,8 @@ mono TerrariaServer.exe \
     -worldpath /data/${base}/world \
     -autocreate ${mapsize} \
     -configpath /data/${base}/tshock/ \
+    -killinactivesocket \
     -forceupdate \
+    --stats-optout \
     -logpath /data/${base}/logs
+
